@@ -1,0 +1,141 @@
+.third-section{
+    height: auto;
+    padding: 100px 0px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.top .right{
+    width: 50%;
+}
+.top .left{
+    line-height: 1;
+    width: 20%;
+}
+
+.top .left p{
+    font-weight: bold;
+    color: #eea636;
+    margin-bottom: 30px;
+}
+
+
+.right p{
+    font-size: 16px;
+}
+
+
+
+.bottom-categories{
+    height: auto;
+    width: 90%;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    cursor: pointer;
+}
+
+.category{
+    position: relative;
+    overflow: hidden;
+}
+
+.overtop{
+    background-color: #eea636;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top:90%;
+    transition: all .5s;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.overtop .overtop-top{
+    display: flex;
+    align-items: center;
+    margin:0;
+    padding:0;
+    justify-content: center;
+}
+
+.overtop .overtop-top h1{
+    height: auto;
+    width: 100%;
+    margin:0;
+    font-size: 20px;
+    
+   
+}
+
+.overtop button{
+    background-color: #eea636;
+    border: none;
+    width: 100%;
+    padding: 10px 0px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.category:hover .overtop{
+top:0;
+background-color: #000000ca;
+color: #fff;
+padding: 20px 20px;
+}
+
+.category img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+/* Mobile Responsive */
+
+@media only screen and (max-width: 998px){
+    .bottom-categories{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .overtop{
+        height: 450px;
+        width: 450px;
+        top:92%;
+    }
+    .category img{
+        height: 450px;
+        width: 450px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .overtop{
+        height: 350px;
+        width: 350px;
+        top:90%;
+    }
+    .category img{
+        height: 350px;
+        width: 350px;
+        object-fit: cover;
+    }
+}
