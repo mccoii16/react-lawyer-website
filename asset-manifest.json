@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-lawyer-website/static/css/main.c5b7c03b.css",
+    "main.js": "/react-lawyer-website/static/js/main.a3740300.js",
+    "static/media/wallpaper.jpg": "/react-lawyer-website/static/media/wallpaper.b6ec891a1ce6470a1200.jpg",
+    "static/media/2.jpg": "/react-lawyer-website/static/media/2.f3fcdd7bb76c8a924902.jpg",
+    "static/media/4.jpg": "/react-lawyer-website/static/media/4.ca540cf0fb47c4a21969.jpg",
+    "static/media/1.jpg": "/react-lawyer-website/static/media/1.c5fa517a49ab3ceefff9.jpg",
+    "static/media/3.jpg": "/react-lawyer-website/static/media/3.0bffbf9b54dd92770518.jpg",
+    "index.html": "/react-lawyer-website/index.html",
+    "main.c5b7c03b.css.map": "/react-lawyer-website/static/css/main.c5b7c03b.css.map",
+    "main.a3740300.js.map": "/react-lawyer-website/static/js/main.a3740300.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5b7c03b.css",
+    "static/js/main.a3740300.js"
+  ]
+}
