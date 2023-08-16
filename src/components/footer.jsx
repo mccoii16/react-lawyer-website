@@ -7,6 +7,7 @@ import { faFileInvoice } from "@fortawesome/free-solid-svg-icons";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import logo from "./assets/logo-light.png"
 
+
 const Footer = () =>{
     return(
         <div className="footer">

@@ -30,7 +30,11 @@ const ThirdSection = () => {
       </div>
 
       <div className="bottom-categories">
-        <div className="category">
+        <div
+          className="category"
+          data-aos="fade-right"
+          data-aos-delay="500"
+          data-aos-duration="1000">
           <img src={image1} alt="" />
           <div className="overtop">
             <div className="overtop-top">
@@ -47,7 +51,11 @@ const ThirdSection = () => {
           </div>
         </div>
 
-        <div className="category">
+        <div
+          className="category"
+          data-aos="fade-right"
+          data-aos-delay="1000"
+          data-aos-duration="1000">
           <img src={image2} alt="" />
           <div className="overtop">
             <div className="overtop-top">
@@ -64,7 +72,11 @@ const ThirdSection = () => {
           </div>
         </div>
 
-        <div className="category">
+        <div
+          className="category"
+          data-aos="fade-right"
+          data-aos-delay="1500"
+          data-aos-duration="1000">
           <img src={image3} alt="" />
           <div className="overtop">
             <div className="overtop-top">
